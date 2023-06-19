@@ -1,0 +1,83 @@
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+    .txt-c-mobile {
+        text-align: center;
+    }
+    .sidebar {
+        width: 62px;
+        padding: 10px;
+    }
+    .sidebar ul li a span {
+        display: none;
+    }
+    .sidebar .logo {
+        display: none;
+    }
+    .sidebar .menu-icon {
+        display: none;
+    }
+    .sidebar .image {
+        margin-bottom: 10px;
+        margin-top: 60px;
+    }
+    .sidebar .fa-moon {
+        position: relative;
+        top: 20px;
+    }
+    .sidebar .logout {
+        top: 0px;
+    }
+    .sidebar .logo::before,
+    .sidebar .logo::after {
+        display: none;
+    }
+    .sidebar ul li {
+        padding-bottom: 20px;
+    }
+    .dark-theme .head .search input::placeholder,
+    .head .search input::placeholder {
+        font-size: 14px;
+    }
+    .head .search input {
+        width: 180px;
+    }
+    .head .search input:focus {
+        width: 200px;
+    }
+    ::-webkit-scrollbar,
+    ::-webkit-scrollbar-thumb,
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+    .profile-page .overview {
+        flex-direction: column;
+    }
+    .profile-page .avatar-box {
+        border: none;
+    }
+    .profile-page .info-box .toggle-switch {
+        margin: auto;
+    }
+    .profile-page .other-data {
+        flex-direction: column;
+    }
+    .profile-page .activity {
+        flex-direction: column;
+    }
+    .profile-page .activity img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .profile-page .activity .date {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 767px) {
+    .profile-page .activity .date {
+        margin-left: auto;
+        text-align: right;
+    }
+}

@@ -1,0 +1,72 @@
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+    .txt-c-mobile {
+        text-align: center;
+    }
+    .sidebar {
+        width: 62px;
+        padding: 10px;
+    }
+    .sidebar ul li a span {
+        display: none;
+    }
+    .sidebar .logo {
+        display: none;
+    }
+    .sidebar .menu-icon {
+        display: none;
+    }
+    .sidebar .image {
+        margin-bottom: 10px;
+        margin-top: 60px;
+    }
+    .sidebar .fa-moon {
+        position: relative;
+        top: 20px;
+    }
+    .sidebar .logout {
+        top: 0px;
+    }
+    .sidebar .logo::before,
+    .sidebar .logo::after {
+        display: none;
+    }
+    .sidebar ul li {
+        padding-bottom: 20px;
+    }
+    .dark-theme .head .search input::placeholder,
+    .head .search input::placeholder {
+        font-size: 14px;
+    }
+    .head .search input {
+        width: 180px;
+    }
+    .head .search input:focus {
+        width: 200px;
+    }
+    ::-webkit-scrollbar,
+    ::-webkit-scrollbar-thumb,
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+    .projects-page {
+        grid-template-columns: minmax(200px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+    .projects-page .project .do {
+        flex-direction: column;
+    }
+    .projects-page .project .do span:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .projects-page .project .info {
+        flex-direction: column;
+    }
+    .projects-page .project .prog {
+        margin-bottom: 15px;
+    }
+}

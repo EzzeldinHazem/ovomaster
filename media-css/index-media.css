@@ -1,0 +1,90 @@
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+    .txt-c-mobile {
+        text-align: center;
+    }
+    .sidebar {
+        width: 62px;
+        padding: 10px;
+    }
+    .sidebar ul li a span {
+        display: none;
+    }
+    .sidebar .logo {
+        display: none;
+    }
+    .sidebar .menu-icon {
+        display: none;
+    }
+    .sidebar .image {
+        margin-bottom: 10px;
+        margin-top: 60px;
+    }
+    .sidebar .fa-moon {
+        position: relative;
+        top: 20px;
+    }
+    .sidebar .logout {
+        top: 0px;
+    }
+    .sidebar .logo::before,
+    .sidebar .logo::after {
+        display: none;
+    }
+    .sidebar ul li {
+        padding-bottom: 20px;
+    }
+    .dark-theme .head .search input::placeholder,
+    .head .search input::placeholder {
+        font-size: 14px;
+    }
+    .welcome {
+        display: block;
+        text-align: center;
+    }
+    ::-webkit-scrollbar,
+    ::-webkit-scrollbar-thumb,
+    ::-webkit-scrollbar-track,
+    .welcome .intro img {
+        display: none;
+    }
+    .wrapper {
+        grid-template-columns: minmax(150px, 1fr);
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+    .head .search input {
+        width: 180px;
+    }
+    .head .search input:focus {
+        width: 200px;
+    }
+    .welcome .intro {
+        padding-bottom: 30px;
+    }
+    .todo-list input {
+        width: 100px;
+        padding: 5px;
+        font-size: 13px;
+    }
+    .todo-list button {
+        padding: 9px 30px;
+    }
+    .tickets .box {
+        width: 100%;
+    }
+    .latest-news {
+        text-align: center;
+    }
+    .latest-news .news-row {
+        display: block;
+    }
+    .latest-news .news-row .lebel {
+        margin: 10px auto;
+        width: fit-content;
+        font-size: 13px;
+    }
+}
